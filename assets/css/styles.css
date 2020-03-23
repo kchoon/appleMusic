@@ -55,6 +55,8 @@ body {
 }
 
 .bestM .best-title {
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 20px;
 }
 
 .bestM .best-title .btstit {
@@ -87,7 +89,48 @@ body {
   border-bottom: 1px solid #dbdbdb;
 }
 
-.container.main-container {
+.recent.recent3 {
+  width: 49%;
+}
+
+.recent {
+  width: 49%;
+  margin-right: 2%;
+}
+
+.recent:last-child {
+  margin-right: 0%;
+}
+
+.d-inline-block.bt-stit {
+}
+
+.d-inline-block.bt-stit.recent_tit {
+  margin-top: 10px;
+}
+
+.row.recent_box {
   border-bottom: 1px solid #ebebeb;
+  padding-bottom: 10px;
+}
+
+.row.next_box {
+  margin-top: 20px;
+}
+
+.d-flex.flex-row.next {
+  width: 100%;
+}
+
+.next-img {
+  width: 102px;
+  margin-right: 12px;
+  height: 102px;
+}
+
+.d-block.bt-tit.next_borderbox {
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 5px;
+  margin-top: -5px;
 }
 
